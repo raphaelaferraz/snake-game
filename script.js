@@ -13,19 +13,19 @@ let food = {
 };
 
 function createBackground() {
-  context.fillStyle = '#256458';
+  context.fillStyle = '#267602';
   context.fillRect(0, 0, 16 * box, 16 * box); //creates the rectangle through x, y, width and height | pt-br: cria o retângulo através do x, y, largura e altura
 }
 
 function createSnake() {
   for (i = 0; i < snake.length; i++) {
-    context.fillStyle = 'green';
+    context.fillStyle = '#A1CF46';
     context.fillRect(snake[i].x, snake[i].y, box, box);
   }
 }
 
 function drawFood() {
-  context.fillStyle = '#f05658';
+  context.fillStyle = '#dd1f1f';
   context.fillRect(food.x, food.y, box, box);
 }
 

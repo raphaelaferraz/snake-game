@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: center;
+}
+
+.title {
+  color: #267602;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin-top: 0.2rem;
+}
+
+.title:hover {
+  color: #53d118;
+}
+
+.snake {
+  margin-top: 3rem;
+}
