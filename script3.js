@@ -54,7 +54,7 @@ function gameStart() {
   for (i = 1; i < snake.length; i++) {
     if (snake[0].x == snake[i].x && snake[0].y == snake[i].y) {
       clearInterval(game);
-      alert('Game Over :(');
+      alert(`Game Over :( Total of points: ${totalPoints}`);
       location = location;
     }
   }
@@ -76,6 +76,7 @@ function gameStart() {
     snake.pop();
   } else {
     point = point + 1;
+    totalPoints = point;
     pointHTML.innerText = `Punctuation: ${point}`;
     food.x = Math.floor(Math.random() * 15 + 1) * box;
     food.y = Math.floor(Math.random() * 15 + 1) * box;
