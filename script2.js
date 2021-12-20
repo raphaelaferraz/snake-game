@@ -55,6 +55,7 @@ function gameStart() {
     if (snake[0].x == snake[i].x && snake[0].y == snake[i].y) {
       clearInterval(game);
       alert('Game Over :(');
+      location = location;
     }
   }
 
