@@ -5,19 +5,21 @@
 }
 
 body {
-  padding-top: 0.3rem;
-  align-items: center;
   background-color: #000;
+  height: 95vh;
+}
+
+.game {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 95vh;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .title {
   color: #267602;
   font-size: 35px;
-  margin-top: 1.2rem;
 }
 
 .subtitle {
@@ -51,4 +53,13 @@ body {
   color: #53d118;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.points {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #565f52;
+  width: 97%;
 }
