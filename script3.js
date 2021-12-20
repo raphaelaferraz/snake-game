@@ -11,6 +11,9 @@ let food = {
   x: Math.floor(Math.random() * 15 + 1) * box,
   y: Math.floor(Math.random() * 15 + 1) * box
 };
+let pointHTML = document.getElementById('points');
+let point = 0;
+pointHTML.innerHTML = `Punctuation: ${point}`;
 
 function createBackground() {
   context.fillStyle = '#32CD32';
@@ -52,6 +55,7 @@ function gameStart() {
     if (snake[0].x == snake[i].x && snake[0].y == snake[i].y) {
       clearInterval(game);
       alert('Game Over :(');
+      location = location;
     }
   }
 
@@ -71,6 +75,8 @@ function gameStart() {
   if (snakeX != food.x || snakeY != food.y) {
     snake.pop();
   } else {
+    point = point + 1;
+    pointHTML.innerText = `Punctuation: ${point}`;
     food.x = Math.floor(Math.random() * 15 + 1) * box;
     food.y = Math.floor(Math.random() * 15 + 1) * box;
   }

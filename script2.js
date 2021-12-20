@@ -11,6 +11,9 @@ let food = {
   x: Math.floor(Math.random() * 15 + 1) * box,
   y: Math.floor(Math.random() * 15 + 1) * box
 };
+let pointHTML = document.getElementById('points');
+let point = 0;
+pointHTML.innerText = `Punctuation: ${point}`;
 
 function createBackground() {
   context.fillStyle = '#A1CF46';
@@ -71,6 +74,8 @@ function gameStart() {
   if (snakeX != food.x || snakeY != food.y) {
     snake.pop();
   } else {
+    point = point + 1;
+    pointHTML.innerText = `Punctuation: ${point}`;
     food.x = Math.floor(Math.random() * 15 + 1) * box;
     food.y = Math.floor(Math.random() * 15 + 1) * box;
   }
