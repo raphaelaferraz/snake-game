@@ -16,8 +16,8 @@
 
 <h1 align="center"> 
   <img src="https://img.shields.io/github/license/raphaelaferraz/snake-game" />
-  <img src="https://img.shields.io/static/v1?label=linguagem&message=JavaScript&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
-  <img src="https://img.shields.io/static/v1?label=Game&message=The Snake Game&color=green&style=for-the-badge&logo=ghost"/>
+  <img src="https://img.shields.io/static/v1?label=linguagem&message=JavaScript&color=yellow&style=flat&logo=JAVASCRIPT"/>
+  <img src="https://img.shields.io/static/v1?label=Game&message=The Snake Game&color=green&style=flat&logo=ghost"/>
 </h1>
 
 ## Principais funcionalidades 🏁
