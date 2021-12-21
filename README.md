@@ -5,6 +5,7 @@
 - [Descrição do Projeto](#descrição-do-projeto-)
 - [Principais funcionalidades](#principais-funcionalidades-)
 - [Status do Projeto](#status-do-projeto)
+- [Demonstração](#demonstração)
 - [Tecnologias](#tecnologias-)
 - [Autora](#autora-)
 
@@ -19,6 +20,7 @@
   <img src="https://img.shields.io/static/v1?label=linguagem&message=JavaScript&color=yellow&style=flat&logo=JAVASCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=Game&message=The Snake Game&color=green&style=flat&logo=ghost"/>
 </h1>
+</br></br>
 
 ## Principais funcionalidades 🏁
 
@@ -36,6 +38,12 @@
 </h4>
 </br></br>
 
+## Demonstração 🎮
+
+Você pode conferir o jogo agora mesmo [clicando aqui 🐍](https://raphaelaferraz.github.io/snake-game/)
+
+</br></br>
+
 ## Tecnologias 👨‍💻
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -46,7 +54,7 @@
 ## Autora 🎨
 
  <a href="https://www.linkedin.com/in/raphaela-guiland-ferraz-32a980214">
-  <img align="center" src="https://avatars.githubusercontent.com/u/86068799?v=4" style="border-radius: 50%;" width="100px" />
+  <img align="center" src="https://avatars.githubusercontent.com/u/86068799?v=4" style="border-radius: 100%" width="100px" />
   <sub><b>  Raphaela Guiland Ferraz</b></sub>
  </a>
 
