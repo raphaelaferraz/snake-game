@@ -84,7 +84,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1701px) and (max-width: 1900px) {
+@media screen and (min-width: 1701px) and (max-width: 1799px) {
   .title {
     font-size: 1.5rem;
   }
@@ -92,6 +92,26 @@ body {
   .subtitle,
   .points {
     font-size: 0.78rem;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1899px) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .subtitle,
+  .points,
+  .level-choice {
+    font-size: 1.8rem;
+  }
+
+  canvas {
+    width: 30%;
+  }
+
+  .level-choice {
+    width: 34rem;
   }
 }
 
