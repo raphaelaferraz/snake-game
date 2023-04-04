@@ -1,19 +1,10 @@
 # The Snake Game 🐍
 
-## Principais conteúdos 📃
-
-- [Descrição do Projeto](#descrição-do-projeto-)
-- [Principais funcionalidades](#principais-funcionalidades-)
-- [Status do Projeto](#status-do-projeto)
-- [Demonstração](#demonstração)
-- [Tecnologias](#tecnologias-)
-- [Autora](#autora-)
-
 </br>
 
 ## Descrição do Projeto 📋
 
-<p id="descricao" align="center"> 🎮 Este é um projeto para relambrar o clássico e velho joguinho da cobrinha! 🎮</p>
+<p id="descricao" align="center"> 🎮 Este é um projeto para relambrar o clássico e velho joguinho da cobrinha! Ele desenvolvido durante o Bootcamp da Digital Innovation One 🎮</p>
 
 <h1 align="center"> 
   <img src="https://img.shields.io/github/license/raphaelaferraz/snake-game" />
